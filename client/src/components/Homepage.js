@@ -9,6 +9,7 @@ const Homepage = () => {
         <div className='Homepage'>
             <div className='homepage-menu'>
                 <img src={require('../assets/logo.png').default} width='200px' />
+                <p>Thecheesybit Production</p>
                 <div className='homepage-form'>
                     <div className='homepage-join'>
                         <input type='text' placeholder='Game Code' onChange={(event) => setRoomCode(event.target.value)} />
